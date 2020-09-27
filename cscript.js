@@ -14,7 +14,7 @@ calcButton.addEventListener("click", ()=> {
   output.innerHTML += ainput + "x" + ainput + " = " + ainput * ainput + "<br>";
   output.innerHTML += binput + "x" + binput + " = " + binput * binput + "<br>";
   output.innerHTML += ng[1] * ng[1] + "-" + ng[0] * ng[0] + " = " + bminusa + "<br>";
-  output.innerHTML += "Square root of " + bminusa + " = " + Math.sqrt(bminusa) + " (a)" + "<br>" + "<br>";
+  output.innerHTML += "Square root of " + bminusa + " = " + Math.sqrt(bminusa) + " (c)" + "<br>" + "<br>";
   output.innerHTML += "Perimeter (2p):<br>";
   output.innerHTML += ainput + "+" + binput + "+" + Math.sqrt(bminusa) + " = " + perimeter;
 });
